@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Healthcare Support for Everyone</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #F3F4F6;
+      color: #2D3748;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(102, 126, 234, 0.1);
+    }
+    h1 {
+      color: #667EEA;
+      margin-bottom: 10px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 0;
+    }
+    nav a {
+      color: #5A67D8;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 4px;
+    }
+    nav a:hover {
+      background-color: #EBF4FF;
+      color: #434190;
+    }
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(102, 126, 234, 0.08);
+    }
+    h2 {
+      color: #667EEA;
+      border-bottom: 2px solid #C3DAFE;
+      padding-bottom: 6px;
+      margin-top: 30px;
+    }
+    ul, ol {
+      margin-left: 20px;
+    }
+    img {
+      display: block;
+      margin: 0 auto 20px auto;
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(102, 126, 234, 0.15);
+    }
+    label {
+      display: block;
+      margin-top: 12px;
+      margin-bottom: 4px;
+      font-weight: bold;
+      color: #4C51BF;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      border: 1px solid #C3DAFE;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button, input[type="submit"] {
+      background-color: #667EEA;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover, input[type="submit"]:hover {
+      background-color: #5A67D8;
+    }
+    footer {
+      text-align: center;
+      color: #fff;
+      background-color: #2D3748;
+      margin-top: 40px;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Healthcare Support for Everyone</h1>
+    <a href="tel:5612604941">
+      <img src="https://placehold.co/950x90/667EEA/FFFFFF?text=Click+here+to+speak+to+a+live+Agent+now!" alt="Click here to speak to a live Agent now!">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#about">Our Mission</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#tips">Tips</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Area -->
+  <main>
+    <!-- Our Mission Section -->
+    <h2 id="about">Our Mission</h2>
+    <p>
+      At Next Level Advisors, we are committed to empowering you with the knowledge you need. Our mission is to help you navigate your options, enabling you to make informed decisions with confidence. We believe in quality customer service and accessible healthcare for everyone. We’re here to help you at no cost to discover the perfect plan that aligns with your budget and needs.
+    </p>
+
+    <!-- Health Insurance Plans Section -->
+    <h2 id="plans">Health Insurance Plans</h2>
+    <ul>
+      <li>Individual and Family Health Plans
+      (HMO, PPO)</li>
+      <li>Indemnity Private Insurance Health Coverage ("Fee-For-Service")</li>
+      <li>Senior Citizen Plans (Medicare A, B , C and D)</li>
+      <li>Ancillary Supplemental Coverage (Dental, Vision, and Disability</li>
+      <li>Critical Illness Coverage (Cancer, Heart illness, and Accident</li>
+    </ul>
+
+    <!-- Tips for Choosing a Plan Section -->
+    <h2 id="tips">Tips for Choosing a Plan</h2>
+    <ol>
+      <li>List your healthcare must-haves and wants.</li>
+      <li>Compare coverage options and benefits.</li>
+      <li>Check if your preferred doctors are in-network.</li>
+      <li>Check if your medications are covered.</li>
+      <li>Read the policy details and disclosure carefully.</li>
+      <li>Write down your agent's name and contacts for later questions.</li>
+    </ol>
+
+    <!-- Contact Us Section -->
+    <h2 id="contact">Contact Us for a Free Quote</h2>
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input id="name" name="name" type="text" required>
+
+      <label for="contactPhone">Phone Number (Optional):</label>
+      <input type="tel" id="contactPhone" name="contactPhone">
+
+      <label for="email">Email:</label>
+      <input id="email" name="email" type="email" required>
+
+      <label for="plan">Interested Plan:</label>
+      <select id="plan" name="plan">
+        <option value="basic">Individual and Family Plans</option>
+        <option value="family">Indemnity Private Coverage</option>
+        <option value="senior">Senior Citizen Plans</option>
+        <option value="critical">Ancillary Suppl Coverage</option>
+        <option value="critical">Critical Illness Coverage</option>
+      </select>
+
+      <input type="submit" value="Request Quote">
+    </form>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Next Level Advisors. All rights reserved.</p>
+  </footer>
+</body>
+</html>
